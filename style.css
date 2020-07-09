@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    min-height: 100vh;
+    font-family: Karla;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    margin: 5% 0 5% 0;
+    font-size: 50px;
+    text-align:center;
+}
+
+#toDoInput
+{
+    width: 90%;
+    padding: 10px;
+    margin:  10px 0 0 0;
+}
+
+#submit
+{
+    margin: 10px 0 5px 0;
+    padding: 5px;
+}
+
+#clear
+{
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+
+form
+{
+    border-style: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul
+{
+    width: 100%;
+    list-style: none;
+}
+
+.li-list
+{
+   
+    margin: 5px 0 0 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+li
+{
+    border-style: solid;
+    border-width: 1px;
+    max-width: 90%;
+    width: 90%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    
+    
+}
+
+i
+{
+  
+    width: 5%;
+}
+
+
+.li-list div
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
